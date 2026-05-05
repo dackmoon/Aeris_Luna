@@ -1,0 +1,40 @@
+{
+  "version": "0.1",
+  "description": "Luna v0.1 expression assets for the first App/WebView validation demo.",
+  "currentExpressions": [
+    "default",
+    "happy",
+    "listening",
+    "thinking"
+  ],
+  "expressions": {
+    "default": {
+      "label": "默认微笑",
+      "file": "smile.png",
+      "usage": "日常待机、普通回复、没有明确情绪时使用"
+    },
+    "happy": {
+      "label": "开心鼓励",
+      "file": "happy.png",
+      "usage": "夸奖宝宝、积极回应、鼓励继续尝试时使用"
+    },
+    "listening": {
+      "label": "温柔倾听",
+      "file": "listening.jpeg",
+      "usage": "宝宝讲述事情、表达感受、需要被认真听见时使用"
+    },
+    "thinking": {
+      "label": "思考好奇",
+      "file": "thinking.jpeg",
+      "usage": "回答问题、引导宝宝思考、表达好奇时使用"
+    }
+  },
+  "fallbacks": {
+    "comforting": "listening"
+  },
+  "notes": [
+    "v0.1 先使用这四个表情完成网页验证。",
+    "安抚关心 comforting 暂时复用 listening，后续如果需要更强情绪区分再单独生成。",
+    "进入网页 Demo 前，建议尽量统一图片格式、比例和角色位置。"
+  ]
+}
