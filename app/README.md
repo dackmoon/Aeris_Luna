@@ -1,8 +1,8 @@
-# Luna dev_0.2
+# Luna App
 
-这是 Luna 的阶段 1 Android 混合 App 原型。
+这是 Luna 的 Android 混合 App 工程，当前对应 [v0.2](../CHANGELOG.md#v02--2026-05-07) 里程碑。
 
-目标是先跑通一个最小 App：竖屏移动端界面、角色展示区域、基础聊天区域和状态切换按钮。当前阶段不接真实对话模型、语音识别、长期记忆或精准口型。
+目标是先跑通一个最小 App：竖屏移动端界面、角色展示区域、基础聊天区域和状态切换按钮。当前阶段不接真实对话模型、语音识别、长期记忆或精准口型。完整路线见 [docs/plan.md](../docs/plan.md)。
 
 ## 技术栈
 
@@ -76,7 +76,7 @@ public/videos/
 
 ```bash
 git clone git@github.com:dackmoon/Aeris_Luna.git
-cd Aeris_Luna/dev_0.2
+cd Aeris_Luna/app
 npm install
 ```
 
@@ -142,5 +142,5 @@ npm run android
 
 ## 下一阶段
 
-`dev_0.3` 会开始引入视频 loop 素材库，把当前占位角色区域替换成状态驱动的视频播放区域。
+v0.3 会让前端从 `public/videos/manifest.json` 读取多视频池，按状态随机选取，去掉硬编码路径。详见 [docs/plan.md 阶段 2](../docs/plan.md#阶段-2v03-视频-loop-素材库)。
 
