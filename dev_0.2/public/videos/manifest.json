@@ -1,0 +1,28 @@
+{
+  "version": "0.3-draft",
+  "states": {
+    "idle": [
+      "/videos/idle/idle_01.mp4"
+    ],
+    "listening": [
+      "/videos/listening/listening_01.mp4"
+    ],
+    "thinking": [
+      "/videos/thinking/thinking_01.mp4"
+    ],
+    "speaking": [
+      "/videos/speaking/speaking_01.mp4"
+    ],
+    "happy": [
+      "/videos/happy/happy_01.mp4"
+    ],
+    "comforting": [
+      "/videos/comforting/comforting_01.mp4"
+    ]
+  },
+  "notes": [
+    "speaking_01.mp4 暂时复用 happy.mp4。",
+    "comforting_01.mp4 暂时复用 listening.mp4。",
+    "后续每个状态可以扩展到 3-5 条视频 loop。"
+  ]
+}
